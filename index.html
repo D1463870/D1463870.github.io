@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神秘水晶球占卜</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔮 神秘水晶球占卜 🔮</h1>
+            <p>點擊水晶球，揭曉你眼前的命運</p>
+        </header>
+
+        <main class="crystal-container">
+            <img src="crystal-ball.png" id="crystal-ball" alt="神秘水晶球">
+            <div id="glow-effect"></div>
+        </main>
+
+        <section id="result-area" class="hidden">
+            <h2 id="fortune-title">等待指引...</h2>
+            <p id="fortune-desc"></p>
+        </section>
+
+        <section class="history-section">
+            <h3>📜 歷史占卜紀錄</h3>
+            <ul id="history-list">
+                <li class="empty-msg">尚無占卜紀錄，點擊水晶球開始吧！</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
